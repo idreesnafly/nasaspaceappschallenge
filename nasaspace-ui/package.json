@@ -1,14 +1,29 @@
 {
   "name": "nasaspace",
   "version": "0.1.0",
+  "main": "./src/index.js",
   "private": true,
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-react-jsx",
+      "@babel/plugin-syntax-jsx"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.6.6",
+    "mobx": "^6.0.0",
+    "ol": "^6.4.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "worldwind-react-globe": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +45,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-syntax-jsx": "^7.10.4",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0"
   }
 }
