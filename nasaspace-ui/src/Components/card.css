@@ -1,0 +1,32 @@
+.cardImg{
+    color:transparent;
+}
+.cardImg:hover{
+    color:'white';
+}
+
+.text-block {
+    position: absolute;
+    height: 190px;
+    width: 287px;
+    background-color:'transparent';
+    color: transparent;
+    top:0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .text-block:hover {
+    position: absolute;
+    height: 190px;
+    width: 287px;
+    background-color:rgba(27,27,27,0.4);
+    color: white;
+    top:0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 80px;
+   
+
+    
+    
+  }
